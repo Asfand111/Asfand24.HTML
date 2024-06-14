@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid tutorial</title>
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns:1fr 4fr 1fr; */
+            grid-template-columns: repeat(3, auto);
+     grid-gap: 2rem;
+        }
+        .item{
+            background-color: rgb(142, 142, 255);
+            margin: 10px;
+            height: 100px; 
+        }
+        .zzz{
+            display:grid ;
+            grid-template-columns: 2fr 5fr 4fr;
+        }
+        .pp{
+            height: 50px;
+            margin: 5px;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">This is a item-1</div>
+        <div class="item">This is a item-2</div>
+        <div class="item">This is a item-3</div>
+        <div class="item">This is a item-3</div>
+        <div class="item">This is a item-3</div>
+        <div class="item">This is a item-3</div>
+        <div class="item">This is a item-3</div>
+        <div class="item">This is a item-3</div>
+        <div class="item">This is a item-3</div>
+        <div class="item">This is a item-3</div>
+        <div class="item">This is a item-3</div>
+        <div class="item">This is a item-3</div>
+        <div class="item">This is a item-3</div>
+       
+        
+    </div>
+    <div class="zzz">
+    <div class="pp">this is atemplete1</div>
+    <div class="pp">this is atemplete2</div>
+    <div class="pp">this is atemplete2</div>
+    </div>
+</body>
+</html>
